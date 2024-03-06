@@ -1,0 +1,41 @@
+.container {
+  margin: 5% 0;
+  padding: 0 10% !important;
+}
+
+.row {
+  margin-bottom: 5%;
+}
+
+a {
+  color: black !important;
+  text-decoration: none !important;
+}
+
+.where a:hover {
+  color: grey !important;
+  text-decoration: underline !important;
+}
+
+#contact-info a {
+  display: inline-block;
+  padding: 6px;
+  border: 2px solid rgb(243, 243, 243);
+  border-radius: 8px;
+  margin-top: 16px;
+}
+
+#contact-info a:hover {
+  background-color: rgb(243, 243, 243);
+}
+
+@media (max-width: 750px) {
+  .container {
+    padding: 0 12px !important;
+  }
+}
+@media (max-width: 576px) {
+  .container {
+    font-size: 0.8rem;
+  }
+}
