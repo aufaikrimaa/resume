@@ -9,13 +9,19 @@ h2 {
 }
 h4 {
   font-size: 160% !important;
+  margin-bottom: 16px !important;
 }
 h5 {
   font-size: 120% !important;
+  margin-bottom: 6px !important;
 }
 
 .row {
-  margin-bottom: 5%;
+  margin-bottom: 2%;
+}
+
+.about {
+  margin-top: 2% !important;
 }
 
 a {
