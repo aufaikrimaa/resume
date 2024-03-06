@@ -1,6 +1,17 @@
 .container {
   margin: 5% 0;
-  padding: 0 10% !important;
+  padding: 0 20% !important;
+  font-size: 0.9rem;
+}
+
+h2 {
+  font-size: 180% !important;
+}
+h4 {
+  font-size: 160% !important;
+}
+h5 {
+  font-size: 120% !important;
 }
 
 .row {
@@ -23,10 +34,17 @@ a {
   border: 2px solid rgb(243, 243, 243);
   border-radius: 8px;
   margin-top: 16px;
+  margin-right: 4px;
 }
 
 #contact-info a:hover {
   background-color: rgb(243, 243, 243);
+}
+
+.date {
+  float: right;
+  font-size: 0.8rem;
+  font-weight: normal;
 }
 
 @media (max-width: 750px) {
@@ -36,6 +54,9 @@ a {
 }
 @media (max-width: 576px) {
   .container {
-    font-size: 0.8rem;
+    font-size: 0.6rem;
+  }
+  .date {
+    font-size: 0.6rem;
   }
 }
