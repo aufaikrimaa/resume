@@ -1,19 +1,24 @@
 .container {
   margin: 5% 0;
   padding: 0 20% !important;
-  font-size: 0.9rem;
+  font-size: 0.8rem;
 }
 
 h2 {
   font-size: 180% !important;
 }
 h4 {
-  font-size: 160% !important;
+  font-size: 150% !important;
   margin-bottom: 16px !important;
 }
 h5 {
   font-size: 120% !important;
-  margin-bottom: 6px !important;
+  margin-bottom: 3px !important;
+}
+h6 {
+  font-size: 105% !important;
+  font-weight: bold !important;
+  margin-bottom: 3px !important;
 }
 
 .row {
@@ -22,6 +27,10 @@ h5 {
 
 .about {
   margin-top: 2% !important;
+}
+
+#courses {
+  margin-bottom: 6px;
 }
 
 a {
@@ -47,9 +56,14 @@ a {
   background-color: rgb(243, 243, 243);
 }
 
+#courses a:hover {
+  color: grey !important;
+  text-decoration: underline !important;
+}
+
 .date {
   float: right;
-  font-size: 0.8rem;
+  font-size: 0.7rem;
   font-weight: normal;
 }
 
