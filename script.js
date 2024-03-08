@@ -111,7 +111,7 @@ const projectsData = [
     date: "Sep 2023 - Present",
     li1: "I conduct research by sourcing relevant data and examining issues within the surrounding environment to develop digital solutions based on predefined themes, also contribute to the design of UI/UX using a Design Thinking approach.",
     li2: "I actively participate in coding the SheTalk application, both on the front-end and back-end, contributing to its overall development.",
-    link: "",
+    link: "https://github.com/aufaikrimaa/shetalk-app.git",
   },
   {
     project: "TourGo Aplication Based Website",
@@ -120,7 +120,7 @@ const projectsData = [
     date: "Aug 2022 - Jan 2023",
     li1: "I develop the application code for TourGo, handling both the front-end and back-end aspects in accordance with the design provided by the design team.",
     li2: "I conduct research through interviews with prospective users of the TourGo application, aiming to ensure the validity and alignment of the application with the users' needs.",
-    link: "",
+    link: "https://github.com/aufaikrimaa/Aplikasi-TourGo.git",
   },
 ];
 
