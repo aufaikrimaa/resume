@@ -38,7 +38,10 @@ a {
   text-decoration: none !important;
 }
 
-.where a:hover {
+.where a:hover,
+#courses a:hover,
+#projects a:hover,
+.bioprojects a:hover {
   color: grey !important;
   text-decoration: underline !important;
 }
@@ -56,15 +59,17 @@ a {
   background-color: rgb(243, 243, 243);
 }
 
-#courses a:hover {
-  color: grey !important;
-  text-decoration: underline !important;
-}
-
 .date {
   float: right;
   font-size: 0.7rem;
   font-weight: normal;
+}
+
+.place {
+  float: right;
+  font-size: 0.7rem;
+  font-weight: normal;
+  margin-top: 4px;
 }
 
 .orgpos {
@@ -84,7 +89,8 @@ ul {
   .container {
     font-size: 0.6rem;
   }
-  .date {
+  .date,
+  .place {
     font-size: 0.6rem;
   }
 }

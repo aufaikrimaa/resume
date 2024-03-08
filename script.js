@@ -93,7 +93,7 @@ const orgContainer = document.getElementById("org");
 
 orgData.forEach((data) => {
   const orgHTML = `
-      <h5>${data.org}<span class="date"><i>${data.place}</i></span></h5>
+      <h5>${data.org}<span class="place"><i>${data.place}</i></span></h5>
       <p class="orgpos">${data.position}<span class="date"><i>${data.date}</i></span></p>
       <ul>
         <li>${data.li1}</li>
@@ -101,4 +101,40 @@ orgData.forEach((data) => {
       </ul>
     `;
   orgContainer.innerHTML += orgHTML;
+});
+
+const projectsData = [
+  {
+    project: "SheTalk Aplication Based Website",
+    place: "Online",
+    program: "FS3 - Bootcamp Perempuan Inovasi 2023",
+    date: "Sep 2023 - Present",
+    li1: "I conduct research by sourcing relevant data and examining issues within the surrounding environment to develop digital solutions based on predefined themes, also contribute to the design of UI/UX using a Design Thinking approach.",
+    li2: "I actively participate in coding the SheTalk application, both on the front-end and back-end, contributing to its overall development.",
+    link: "",
+  },
+  {
+    project: "TourGo Aplication Based Website",
+    place: "Tangerang, Indonesia",
+    program: "Kelompok 2 - MBKM Wirausaha Merdeka 2022",
+    date: "Aug 2022 - Jan 2023",
+    li1: "I develop the application code for TourGo, handling both the front-end and back-end aspects in accordance with the design provided by the design team.",
+    li2: "I conduct research through interviews with prospective users of the TourGo application, aiming to ensure the validity and alignment of the application with the users' needs.",
+    link: "",
+  },
+];
+
+const projectsContainer = document.getElementById("projects");
+
+projectsData.forEach((data) => {
+  const projectsHTML = `
+      <h5>${data.project}<span class="place"><i>${data.place}</i></span></h5>
+      <p class="orgpos">${data.program}<span class="date"><i>${data.date}</i></span></p>
+      <ul>
+        <li>${data.li1}</li>
+        <li>${data.li2}</li>
+       <a href="${data.link}" target="_blank"> <li>See documentation on Github &gt&gt</li></a>
+      </ul>
+    `;
+  projectsContainer.innerHTML += projectsHTML;
 });
