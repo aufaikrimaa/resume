@@ -9,7 +9,7 @@ h2 {
 }
 h4 {
   font-size: 150% !important;
-  margin-bottom: 16px !important;
+  margin-bottom: 12px !important;
 }
 h5 {
   font-size: 120% !important;
@@ -65,6 +65,14 @@ a {
   float: right;
   font-size: 0.7rem;
   font-weight: normal;
+}
+
+.orgpos {
+  margin-bottom: 4px;
+}
+
+ul {
+  padding-left: 20px !important;
 }
 
 @media (max-width: 750px) {

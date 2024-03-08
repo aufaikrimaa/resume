@@ -69,3 +69,36 @@ courseData.forEach((data) => {
     `;
   courseContainer.innerHTML += courseHTML;
 });
+
+const orgData = [
+  {
+    org: "The Students Activity Unit Student Choir",
+    place: "Universitas BSI",
+    position: "President",
+    date: "Jan 2022 - Dec 2022",
+    li1: "Coordinating with the organization's advisor to execute the planned annual activities and reporting the outcomes to the advisor.",
+    li2: "Coordinating team members to ensure the seamless execution of planned annual activities.",
+  },
+  {
+    org: "PPPM Baitussalam Boarding School",
+    place: "Yogyakarta, Indonesia",
+    position: "Head Girl",
+    date: "Aug 2018 - Dec 2019",
+    li1: "Coordinating with the Chairperson and the Head of the Foundation to create rules, manage activities, and resolving any issues, ensuring everything runs efficiently. Also, overseeing the activities of the students.",
+    li2: "Creating monthly reports on students' activities during their time at the boarding school for collaborative improvement discussions with the chairman and the head of the foundation.",
+  },
+];
+
+const orgContainer = document.getElementById("org");
+
+orgData.forEach((data) => {
+  const orgHTML = `
+      <h5>${data.org}<span class="date"><i>${data.place}</i></span></h5>
+      <p class="orgpos">${data.position}<span class="date"><i>${data.date}</i></span></p>
+      <ul>
+        <li>${data.li1}</li>
+        <li>${data.li2}</li>
+      </ul>
+    `;
+  orgContainer.innerHTML += orgHTML;
+});
