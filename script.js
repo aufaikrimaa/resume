@@ -76,7 +76,7 @@ const orgData = [
     place: "Universitas BSI",
     position: "President",
     date: "Jan 2022 - Dec 2022",
-    li1: "Coordinating with the organization's advisor to execute the planned annual activities and reporting the outcomes to the advisor.",
+    li1: "Coordinating with the organization's advisor to execute the planned annual activities and report the outcomes to the advisor.",
     li2: "Coordinating team members to ensure the seamless execution of planned annual activities.",
   },
   {
@@ -105,7 +105,7 @@ orgData.forEach((data) => {
 
 const projectsData = [
   {
-    project: "SheTalk Aplication Based Website",
+    project: "SheTalk Application Based Website",
     place: "Online",
     program: "FS3 - Bootcamp Perempuan Inovasi 2023",
     date: "Sep 2023 - Present",
@@ -114,7 +114,7 @@ const projectsData = [
     link: "https://github.com/aufaikrimaa/shetalk-app.git",
   },
   {
-    project: "TourGo Aplication Based Website",
+    project: "TourGo Application Based Website",
     place: "Tangerang, Indonesia",
     program: "Kelompok 2 - MBKM Wirausaha Merdeka 2022",
     date: "Aug 2022 - Jan 2023",
