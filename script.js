@@ -73,7 +73,7 @@ courseData.forEach((data) => {
 const orgData = [
   {
     org: "The Students Activity Unit Student Choir",
-    place: "Universitas BSI",
+    place: "BSI University",
     position: "President",
     date: "Jan 2022 - Dec 2022",
     li1: "Coordinating with the organization's advisor to execute the planned annual activities and report the outcomes to the advisor.",
@@ -105,36 +105,38 @@ orgData.forEach((data) => {
 
 const projectsData = [
   {
-    project: "SheTalk Application Based Website",
+    project: "Front-End Developer ",
     place: "Online",
     program: "FS3 - Bootcamp Perempuan Inovasi 2023",
-    date: "Sep 2023 - Present",
-    li1: "I conduct research by sourcing relevant data and examining issues within the surrounding environment to develop digital solutions based on predefined themes, also contribute to the design of UI/UX using a Design Thinking approach.",
-    li2: "I actively participate in coding the SheTalk application, both on the front-end and back-end, contributing to its overall development.",
-    link: "https://github.com/aufaikrimaa/shetalk-app.git",
+    date: "Sep 2023 – Feb 2024",
+    list: [
+      "I conduct research by sourcing relevant data and examining issues within the surrounding environment to develop digital solutions based on predefined themes, also contribute to the design of UI/UX using a Design Thinking approach.",
+      "I actively participate in coding the SheTalk application, both on the front-end and back-end, contributing to its overall development.",
+      "Collaborated effectively with the entire team, resulting in our SheTalk innovation securing second place in the competition.",
+    ],
   },
   {
-    project: "TourGo Application Based Website",
+    project: "Web Developer",
     place: "Tangerang, Indonesia",
-    program: "Kelompok 2 - MBKM Wirausaha Merdeka 2022",
+    program: "Group 2 - MBKM Wirausaha Merdeka 2022 Batch I",
     date: "Aug 2022 - Jan 2023",
-    li1: "I develop the application code for TourGo, handling both the front-end and back-end aspects in accordance with the design provided by the design team.",
-    li2: "I conduct research through interviews with prospective users of the TourGo application, aiming to ensure the validity and alignment of the application with the users' needs.",
-    link: "https://github.com/aufaikrimaa/Aplikasi-TourGo.git",
+    list: [
+      "I develop the application code for TourGo, handling both the front-end and back-end aspects in accordance with the design provided by the design team.",
+      "I conduct research through interviews with prospective users of the TourGo application, aiming to ensure the validity and alignment of the application with the users' needs.",
+    ],
   },
 ];
 
 const projectsContainer = document.getElementById("projects");
 
 projectsData.forEach((data) => {
+  const listHTML = data.list.map((li) => `<li>${li}</li>`).join("");
   const projectsHTML = `
       <h5>${data.project}<span class="place"><i>${data.place}</i></span></h5>
       <p class="orgpos">${data.program}<span class="date"><i>${data.date}</i></span></p>
       <ul>
-        <li>${data.li1}</li>
-        <li>${data.li2}</li>
-       <a href="${data.link}" target="_blank"> <li>See documentation on Github &gt&gt</li></a>
-      </ul>
+        ${listHTML}
+       </ul>
     `;
   projectsContainer.innerHTML += projectsHTML;
 });

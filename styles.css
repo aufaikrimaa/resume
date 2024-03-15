@@ -40,8 +40,7 @@ a {
 
 .where a:hover,
 #courses a:hover,
-#projects a:hover,
-.bioprojects a:hover {
+#projects a:hover {
   color: grey !important;
   text-decoration: underline !important;
 }
