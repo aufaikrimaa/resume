@@ -111,7 +111,7 @@ const projectsData = [
     date: "Sep 2023 – Feb 2024",
     list: [
       "I conduct research by sourcing relevant data and examining issues within the surrounding environment to develop digital solutions based on predefined themes, also contribute to the design of UI/UX using a Design Thinking approach.",
-      "I actively participate in coding the SheTalk application, both on the front-end and back-end, contributing to its overall development.",
+      "Executed frontend tasks including slicing and integrating backend functionalities, ensuring seamless interaction between the frontend and backend components.",
       "Collaborated effectively with the entire team, resulting in our SheTalk innovation securing second place in the competition.",
     ],
   },
