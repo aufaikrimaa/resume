@@ -26,8 +26,8 @@ const courseData = [
     from: "Perempuan Inovasi",
     date: "Issued Feb 2024",
     title: "Full Stack Web Development",
-    link: "",
-    credentials: "",
+    link: "https://drive.google.com/file/d/1Z_yzOpTfeV7IA5hoC3XCx4nFxkpfFvQV/view",
+    credentials: "see credentials &gt&gt",
   },
   {
     from: "Skilvul",
@@ -105,7 +105,7 @@ orgData.forEach((data) => {
 
 const projectsData = [
   {
-    project: "Front-End Developer ",
+    project: "Frontend Developer ",
     place: "Online",
     program: "FS3 - Bootcamp Perempuan Inovasi 2023",
     date: "Sep 2023 – Feb 2024",
@@ -116,7 +116,7 @@ const projectsData = [
     ],
   },
   {
-    project: "Web Developer",
+    project: "Full Stack Developer",
     place: "Tangerang, Indonesia",
     program: "Group 2 - MBKM Wirausaha Merdeka 2022 Batch I",
     date: "Aug 2022 - Jan 2023",
